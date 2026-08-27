@@ -1,0 +1,12 @@
+disabled_rules:
+  # URLProtocol requires overridable class methods even inside a final subclass.
+  - static_over_final_class
+
+identifier_name:
+  excluded:
+    # API-backed pizza sizes and the Figma background token use these exact names.
+    - S
+    - M
+    - L
+    - bg
+    - id
